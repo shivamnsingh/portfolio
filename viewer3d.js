@@ -63,9 +63,9 @@ function init3DScene(modelUrl) {
   controls.minDistance = 1;
   controls.maxDistance = 500;
 
-  const ambientLight = new THREE.AmbientLight(ambientLightColor, 0.5);
+  const ambientLight = new THREE.AmbientLight(ambientLightColor, 2);
   scene.add(ambientLight);
-  const directionalLight = new THREE.DirectionalLight(keyLightColor, 1);
+  const directionalLight = new THREE.DirectionalLight(keyLightColor, 5);
   directionalLight.position.set(5, 10, 7.5);
   scene.add(directionalLight);
 

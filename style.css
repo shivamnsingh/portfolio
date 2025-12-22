@@ -1797,6 +1797,7 @@ form textarea {
   .wave-text span,
   .categorySelect span[draggable="true"] {
     animation: none;
+    border: none;
   }
 }
 
